@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-areas: 'teste'
+                        'header'
+                        'section1'
+                        'section2'
+                        'section3'
+                        'footer';
+    grid-template-rows: 2vh 60vh 30vh 40vh 50vh 10vh;
+    grid-template-columns: 99.7vw;
+    margin: 0%;
+}
+
+nav{
+    grid-area: teste;
+    background: red;
+}
+
+header{
+    grid-area: header;
+    background: yellow;
+}
+
+section .section1{
+    grid-area: section1;
+    background: gray;
+}
+
+section .section2{
+    grid-area: section2;
+}
+
+section .section3{
+    grid-area: section3;
+}
+
