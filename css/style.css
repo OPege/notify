@@ -17,7 +17,7 @@ nav{
 }
 
 header{
-    background-image: image();
+    background-image: url("../images/banner.png");
     grid-area: header;
     
 }
