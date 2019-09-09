@@ -6,19 +6,19 @@ body{
                           'section2'
                           'section3'
                           'footer';
-    grid-template-rows: 2vh 60vh 30vh 40vh 50vh 10vh;
+    grid-template-rows: 1vh 60vh 30vh 40vh 50vh 10vh;
     grid-template-columns: 99.999vw;
     margin: 0;
 }
 
 nav{
     grid-area: teste;
-    background: red;
+    background: #2DCC70;
 }
 
 header{
+    background-image: image();
     grid-area: header;
-    background: yellow;
     
 }
 
