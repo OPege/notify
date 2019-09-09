@@ -1,14 +1,14 @@
 body{
     display: grid;
-    grid-template-areas: 'teste'
-                        'header'
-                        'section1'
-                        'section2'
-                        'section3'
-                        'footer';
+    grid-template-areas:  'teste'
+                          'header'
+                          'section1'
+                          'section2'
+                          'section3'
+                          'footer';
     grid-template-rows: 2vh 60vh 30vh 40vh 50vh 10vh;
-    grid-template-columns: 99.7vw;
-    margin: 0%;
+    grid-template-columns: 99.999vw;
+    margin: 0;
 }
 
 nav{
@@ -19,6 +19,7 @@ nav{
 header{
     grid-area: header;
     background: yellow;
+    
 }
 
 section .section1{
@@ -26,11 +27,15 @@ section .section1{
     background: gray;
 }
 
-section .section2{
+.section2{
+    background-color: #E3E4E4;
     grid-area: section2;
+    
+    
 }
 
 section .section3{
     grid-area: section3;
+    background: pink;
 }
 
