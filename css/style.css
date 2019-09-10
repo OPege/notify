@@ -11,6 +11,12 @@ body{
     margin: 0;
 }
 
+.video{
+    /* display: block; */
+    grid-area: section2;
+    
+}
+
 nav{
     grid-area: teste;
     background: red;
@@ -32,6 +38,15 @@ section .section1{
     grid-area: section2;
     
     
+}
+.getnotified{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50%;
+    grid-area: section2;
 }
 
 section .section3{
