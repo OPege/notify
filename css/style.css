@@ -11,6 +11,11 @@ body{
     margin: 0;
 }
 
+div{
+    margin-left: 60px;
+
+}
+
 .video{
     /* display: block; */
     grid-area: section2;
