@@ -6,20 +6,28 @@ body{
                           'section2'
                           'section3'
                           'footer';
-    grid-template-rows: 2vh 70vh 30vh 40vh 50vh 10vh;
+    grid-template-rows: 1vh 90vh 30vh 40vh 50vh 10vh;
     grid-template-columns: 100vw;
     margin: 0;
 }
 
-header span {
-    color:  #2DCC70;
+header div{
+    max-width: 50%;
+    max-width: 50%;
 }
 
+header p{
+    display: flex;
+    flex-direction: column;
+    background-position: cover;
+    font-family: 'Roboto', sans-serif;
+    grid-area: header;
+    justify-content: right;
+    text-align: right;
 
-
-div .div2{
-    background-image: url("../images/hand.png");
-    margin-left: 60px;
+}
+header span {
+    color:  #2DCC70;
 }
 
 .video{
