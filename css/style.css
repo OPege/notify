@@ -15,7 +15,8 @@ body{
     color: #2DCC70;
 }
 
-div {
+div .div2{
+    background-image: url("../images/hand.png");
     margin-left: 60px;
 }
 
