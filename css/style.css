@@ -30,6 +30,11 @@ header span {
     color:  #2DCC70;
 }
 
+h2{
+    margin-left: 21.5%;
+    margin-right: 50%;
+}
+
 .video{
     /* display: block; */
     grid-area: section2;
@@ -71,6 +76,7 @@ section .section1{
     justify-content: center;
     text-align: center;
     margin-right: 50%;
+    margin-left: 17%;
     grid-area: section2;
 }
 
