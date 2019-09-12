@@ -11,6 +11,15 @@ body{
     margin: 0;
 }
 
+.direito{
+    align-items: flex-end;
+    display: flex;
+    margin-left: 800px;
+    padding: 230 x 280;
+    width: 400px;
+    height: 669px;
+}
+
 header div{
     max-width: 50%;
     max-width: 50%;
