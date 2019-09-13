@@ -47,6 +47,7 @@ h2{
 .video{
     /* display: block; */
     grid-area: section2;
+    float: right;
     
 }
 
@@ -82,10 +83,12 @@ section .section1{
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-right: 50%;
-    margin-left: 17%;
+    /*justify-content: center;*/
+    text-align: left;
+    margin-top: 0.5%;
+    margin-left: 21.6%;
+    float: left;
+    width: 500px;
     grid-area: section2;
 }
 
