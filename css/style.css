@@ -95,8 +95,30 @@ header{
     grid-area: section2;
 }
 
-section .section3{
+.section3{
+    display: grid;
+    align-content: center;
+    align-items: center;
+    text-align: center;
     grid-area: section3;
-    background: pink;
+   
+}
+
+.thinitalic{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-left: 16%;
+    margin-right: 16%;
+
+}
+.bold{
+    font-family: 'roboto', sans-serif;
+    font-weight: 600;
+    
+}
+.thin{
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
 }
 
