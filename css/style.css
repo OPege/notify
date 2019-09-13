@@ -68,9 +68,12 @@ header{
     text-align: center;
 }
 
-section .section1{
+.section1{
+    background: red;
+    display: flex;
     grid-area: section1;
-    background: gray;
+    height: 50px; 
+    justify-content: space-evenly;
 }
 
 .section2{
