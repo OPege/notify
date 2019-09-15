@@ -61,7 +61,6 @@ nav{
     background: #2DCC70;
 }
 header{
-    /* align-items: center; */
     background-image: url("../images/banner.png");
     color: white;
     display: flex;
@@ -69,22 +68,24 @@ header{
     background-position: cover;
     font-family: 'Pacifico', cursive;
     grid-area: header;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
 }
 
-.section1{
-    background: red;
+.botao1section1, .botao2section1, .botao3section1{
+    align-items: center;
+    background-color: #2DCC70;
+    border-radius:50%;
     display: flex;
-    grid-area: section1;
-    height: 50px; 
-    justify-content: space-evenly;
-}
+    flex-direction: row;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    }
 
 .section2{
     background-color: #E3E4E4;
     grid-area: section2;
-    
     
 }
 .getnotified{
