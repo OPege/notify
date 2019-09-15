@@ -25,6 +25,13 @@ body{
     height: 399px;
 }
 
+footer{
+    background-color: #E3E4E4;
+    font-family: 'Roboto', sans-serif;
+    grid-area: footer;
+    align-items: center;
+}
+
 header div{
     max-width: 50%;
     max-width: 50%;
@@ -102,11 +109,12 @@ header{
 }
 
 .section3{
-    display: grid;
     align-content: center;
     align-items: center;
-    text-align: center;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
     grid-area: section3;
+    text-align: center;
    
 }
 
@@ -119,12 +127,12 @@ header{
 
 }
 .bold{
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     
 }
 .thin{
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
