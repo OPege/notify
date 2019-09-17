@@ -27,9 +27,11 @@ body{
 
 footer{
     background-color: #E3E4E4;
+    color: rgb(114, 111, 111);
+    display: flex;
     font-family: 'Roboto', sans-serif;
     grid-area: footer;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 header div{
